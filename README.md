@@ -1,7 +1,7 @@
 # NBA Lineups(Data manipulation)
 In this project I will try to establish lineup with the highest average scored points/points allowed/points differ/any other basic box score stats  per 24 min in NBA 2016-2019 seasons.
 # Data
-I use NBA play by play data, where each row represents one event on the court. So for one game there are around 500-600 rows and for whole season around 500k rows. The number of columns is 111. We need to find out way to count stats for each lineup so it will be great project to test data manipulation skills.
+I use NBA play by play data, where each row represents one event on the court. So for one game there are around 500-600 rows and for whole season around 500k rows. The number of columns is 111. We need to find out way to count stats for each lineup so it will be great project to test data manipulation skills. I can't find source from original data and also can't load it here couse they are too big. (+600MB)
 # Creating column with lineup data
 After identifying the relevant columns and removing the unnecessary ones I create column thats contains indexes of five players in lineup for home teams (I sorted them in case of 
 same players in lineup but with mixed postions). Next I did the same for away teams
